@@ -1,0 +1,18 @@
+{
+  "name": "afropreunariat",
+  "version": "1.0.0",
+  "description": "Site des Afros Entrepreneurs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Kael_ET_Kae",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
