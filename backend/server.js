@@ -1,6 +1,6 @@
-const express = require('express');
+const express = require('express'); //Affectation de la librairie express dans la constante express.
 const dotenv = require('dotenv').config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // Affectation du port sur lequel notre application sera écouté à la constant PORT
 const app = express();
 
 app.use('/api/afropreneurs', require('./routes/afropreneurRoutes'))
